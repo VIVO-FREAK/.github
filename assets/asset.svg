@@ -38,27 +38,36 @@
   <rect class="accent-line" x="62" y="76" width="5" height="168" rx="2.5" fill="url(#white-glow)" filter="url(#glow)"/>
 
   <g>
-    <text x="96" y="108" fill="#f5f6f8" font-size="42" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-weight="700" letter-spacing=".5">
+    <!-- Title -->
+    <text x="96" y="108" fill="#f5f6f8" font-size="42"
+          font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif"
+          font-weight="700" letter-spacing=".5">
       Optimizing Home Launchers
     </text>
-
-    <text x="96" y="142" fill="#8F99A2" font-size="18" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
-      Faster • Leaner • Cleaner
-    </text>
-
-    <text x="96" y="184" fill="#f5f6f8" opacity=".85" font-size="16" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
-      Making Android launchers lighter, smoother, and more efficient.
-    </text>
-    
-    <text x="96" y="208" fill="#f5f6f8" opacity=".85" font-size="16" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
-      Performance tuning
-    </text>
-    <text x="96" y="232" fill="#f5f6f8" opacity=".85" font-size="16" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
-      Memory optimization
-    </text>
-
-    <text x="96" y="266" fill="#8F99A2" font-size="13" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="1">
-      Optimize() → Benchmark() → Repeat()
+  
+    <!-- Stack keywords -->
+    <text x="96" y="142" fill="#8F99A2" font-size="17" font-weight="600">Faster</text>
+    <text x="96" y="164" fill="#8F99A2" font-size="17" font-weight="500">Leaner</text>
+    <text x="96" y="186" fill="#8F99A2" font-size="17" font-weight="400">Cleaner</text>
+  
+    <!-- Description (3 clean lines) -->
+    <text x="96" y="214" fill="#f5f6f8" opacity=".85" font-size="16">Making Android launchers lighter, smoother</text>
+    <text x="96" y="238" fill="#f5f6f8" opacity=".85" font-size="16">faster and more efficient via performance tuning</text>
+    <text x="96" y="262" fill="#f5f6f8" opacity=".85" font-size="16">and memory optimization</text>
+  
+    <!-- Code line -->
+    <text x="96" y="294" font-size="13"
+          font-family="JetBrains Mono, Consolas, monospace"
+          letter-spacing="1">
+  
+      <tspan fill="#8F99A2">Optimize</tspan><tspan fill="#f5f6f8">()</tspan>
+      <tspan fill="#8F99A2"> → </tspan>
+  
+      <tspan fill="#8F99A2">Benchmark</tspan><tspan fill="#f5f6f8">()</tspan>
+      <tspan fill="#8F99A2"> → </tspan>
+  
+      <tspan fill="#8F99A2">Repeat</tspan><tspan fill="#f5f6f8">()</tspan>
+  
     </text>
   </g>
 </svg>
